@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+li{
+    list-style-type:none ;
+}
+#container-index{
+    background: url(../img/front.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    height: 100%;
+}
+.icon{
+    width: 60px;
+
+}
+#navigation{
+    width: 90%; 
+    display: flex; 
+    justify-content: space-between;
+    margin: 30px;
+    
+}
+#links{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    width: 30%;
+}
+.postcard-main{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+.postcard{
+    background-color: #CEBEB4;
+    font-size: larger;
+    width: 400px;
+    padding: 50px;
+    margin-top: 100px;
+    margin-right: 10%;
+}
+.frontpage{
+    display: flex;
+    flex-direction: column;
+
+    
+}
